@@ -1,0 +1,77 @@
+/* arrange le fond d'écran de mon site*/
+body {
+    background-color:forestgreen;
+    text-align: center;
+}
+/* Arrange mon en-tête(Sujet principal de mon site)*/
+header {
+    height: 120px;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 100px;
+    color:blue;
+}
+
+
+
+img { /* arranger mes images*/
+     width: 500px;
+    height: 500px;
+    margin-top: 20px;
+	
+}
+/*Arrange mes titres de mon sujet principal)*/
+h1 { color:blue;
+     font-size: 50px;
+ }
+ 
+ p {/*sert a améliorer mes paragraphes*/
+	 color: yellow;
+     font-size:30px;
+     text-align: center;
+     padding-top: 1rem;
+ }
+ 
+ nav {
+	/* sert seulemnt de visuel pour construire et expliquer, on aurait pu le mettre sous nav ul {}) */
+	background-color: yellow; 
+	height: 2em;
+}
+
+nav ul {   
+	/* enleve l'espace entre le head et le nav */
+	margin: 0;
+	padding:0;
+	
+	text-align: center;
+ 	background-color: yellow;
+}
+/* Améliore les états des li*/
+nav ul li {
+	background-color: yellow;
+ 
+	
+	/* Mettre les li sur l'horozontale*/
+	display: inline-block;
+	width: 10%;
+    border-style: outset;
+    padding:9px;
+ 
+ /* Centre le texte verticalement dans la boite*/
+	}
+
+
+
+/*Arrange les écritures des li*/
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	
+    	
+	 }      
+.Liens ul{font-size:50px;
+       background-color: none;}
+              
+section {font-size: 36px;
+          
+                } 
